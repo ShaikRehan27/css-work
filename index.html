@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<style>
+    body{
+        background-color: rgb(199, 27, 27);
+    }
+    .container{
+          background-color: black;
+          width: 35%;
+          text-align: center;
+          margin:20% 20% 50% 30%;
+          padding: 3%;
+          box-shadow: 0px 3px 3px rgb(255, 255, 255);
+          border-radius: 5px;
+
+    }
+    .container input{
+        padding: 15px;
+        width: 250px;
+        border:none;
+        background-color: rgba(128, 128, 128,0.2);
+        
+    }
+    .container .Button{
+        background-color: rgb(126, 44, 35);
+        padding: 15px;
+        width: 250px;
+        border: none;
+        font-size: 1.1rem
+
+    }
+    .container .Button:hover{
+        cursor:pointer;
+    }
+    .container .NotRegistered{
+        color:rgb(186, 155, 155)
+    }
+    .container .registered{
+        color:white;
+        text-decoration: none;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <p><input type="email" placeholder="Enter Email/Username"/></p>
+        <p><input type="password" placeholder="Enter Password"/>
+        </p>
+        <p><button class="Button">LOGIN</button></p>
+        <div>
+            <span class="NotRegistered">Not Registered?</span>
+            <a class="registered" href="https://www.instagram.com" target="_blank">Create an Account</a>
+        </div>
+    </div>
+</body>
+</html>
